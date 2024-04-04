@@ -1,0 +1,59 @@
+.iconCard{
+    display:flex;
+    width:160px;
+    height:40px;
+    border:1px solid;
+    border-radius: 4px;
+    padding:4px 8px;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    background-color: var(--white);
+    text-decoration: none;
+    cursor:pointer;
+    justify-content: center;
+
+}
+
+.searchAnotherLocation {
+    background-image: url("/public/vector2.svg"); /* Set the background image */
+    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    background-position: 15px center; /* Position the image 10px from the left and centered vertically */
+    padding-left: 100px;
+    color: #718096;
+    font-weight: 400;
+    font-size: var( --font-size-base);
+    width: 260px;
+    height: 42px;
+   
+    border: 3px;
+    border-radius: 30px;
+    padding: 9px 22px;
+    padding-left: 60px;
+    background-size: 24px 24px;
+    border:1px solid;
+    margin-left: 150px;
+  }
+.searchWrap{
+    margin-left: 195px;
+    margin-top: 8px;
+}
+  .searchBar{
+    display:flex;
+    margin-top: 20px;
+    
+  }
+  .searchShow{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:18px;
+    
+  }
+.underline{
+  text-decoration: none;
+  margin-left: 10px;
+  list-style: none;
+  text-transform: none;
+  
+}
