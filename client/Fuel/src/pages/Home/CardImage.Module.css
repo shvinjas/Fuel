@@ -1,0 +1,83 @@
+.cardImageWrap{
+    width:770px;
+    height:186px;
+    display:flex;
+    margin-left: 21px;
+    margin-top: 40px;
+   
+    margin: 15px;
+  
+    
+
+   
+
+}
+
+.cardDisplay{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+}
+
+.powerWrap{
+    width:360px;
+    height:186px;
+    padding:10px 10px 0px 30px;
+    display:flex;
+    flex-direction: column;
+  
+    
+   
+}
+
+.house{
+    width:380px;
+    height:186px;
+    border-radius:10px;
+   
+}
+
+.power{
+    font-weight: 700;
+    font-size: 14px;
+   color:orange;
+   
+
+   
+}
+
+.details{
+    font-weight: 400;
+    font-size: 14px;
+    color:var(--NavyZ);
+    margin-top: 20px;
+}
+.learn{
+    width:148px;
+    height:39px;
+    background: linear-gradient(-89.8deg, #fdc107, #fb6d1a);
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px;
+    gap:10px;
+    font-weight: 700;
+    font-size: 14px;
+    color:var(--white);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+.redArrow{
+    width:26px;
+    height:26px;
+   
+}
+
+.Zapp{
+    margin-bottom: 5px;
+    color:var(--NavyZ);
+    font-size: var(--font-size-);
+}

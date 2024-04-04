@@ -1,0 +1,50 @@
+{
+  "stations": [
+    {
+      "name": "Wellington Central Service Station",
+      "address": "123 Main Street, Wellington",
+      "city": "mount cook",
+      "location": { "lat": -41.30177, "lng": 174.77434 },
+      "petrol_prices": {
+        "petrol_91": 2.0,
+        "petrol_95": 2.2,
+        "diesel": 1.8
+      },
+      "service_station_available": true,
+      "open_now": true,
+      "truck_stop_facility": false,
+      "food_and_coffee": true
+    },
+    {
+      "name": "Harbour City Fuel Stop",
+      "address": "456 Queen's Road, Wellington",
+      "city": "kilbirnie",
+      "location": { "lat": -41.31873, "lng": 174.79670 },
+      "petrol_prices": {
+        "petrol_91": 2.1,
+        "petrol_95": 2.3,
+        "diesel": 1.9
+      },
+      "service_station_available": true,
+      "open_now": false,
+      "truck_stop_facility": true,
+      "food_and_coffee": false
+    },
+    {
+      "name": "Mount Victoria Gas & Go",
+      "address": "789 Victoria Street, Wellington",
+      "city": "New Town",
+      "location": { "lat": -41.31435 , "lng": 174.78055 },
+
+      "petrol_prices": {
+        "petrol_91": 2.05,
+        "petrol_95": 2.25,
+        "diesel": 1.85
+      },
+      "service_station_available": true,
+      "open_now": true,
+      "truck_stop_facility": false,
+      "food_and_coffee": true
+    }
+  ]
+}

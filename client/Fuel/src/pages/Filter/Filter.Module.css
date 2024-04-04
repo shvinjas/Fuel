@@ -1,0 +1,94 @@
+.filterContainer {
+  width: 730px;
+  height: 660px;
+  background-color: var(--white);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+  margin-left: 50px;
+  max-width: 100%;
+}
+
+.topFilter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Zlogo {
+  height: 40px;
+  width: 40px;
+}
+.close-icon {
+  height: 24px;
+  width: 24px;
+}
+.moreFilters {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.stationType {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plots {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.Tiles {
+  row-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 160px;
+  border-radius: 4px;
+  border: 1px solid #122663;
+  background: linear-gradient(-89.8deg, #fdc107, #fb6d1a);
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.icons {
+  width: 30px;
+  height: 24px;
+}
+
+.facility {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--NavyZ);
+}
+
+
+.BlueButton {
+  width: 171px;
+  height: 64px;
+  border-radius: 30px;
+  padding: 22px 21px;
+  background-color: var(--NavyZ);
+  color: var(--white);
+  margin-left: 240px;
+}
+.apply {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.applyButton {
+  font-weight: 700px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.iconwhite {
+  width: 20px;
+  height: 20px;
+}
