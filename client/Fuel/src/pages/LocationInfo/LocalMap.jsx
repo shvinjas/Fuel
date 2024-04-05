@@ -5,15 +5,17 @@ const MapComponent = ({ users }) => {
   useEffect(() => {
     // Initialize the map
     const map = new window.google.maps.Map(document.getElementById('map'), {
-      center: { lat: -41.2865, lng: 174.7762 }, // Default center for Wellington
+      center: { lat: -41.2865, lng: 174.7762 }, 
       zoom: 12
     });
+
+   
 
     // Add markers for each station
     users.forEach(user => {
       // Construct marker content with petrol price
       const markerContent = `
-        <div style="color:black">
+        <div style="color:#fb6d1a">
           <strong>${user.name}</strong><br>
           Petrol Price: $${user.petrol_91}<br>
         </div>
@@ -23,7 +25,9 @@ const MapComponent = ({ users }) => {
       const marker = new window.google.maps.Marker({
         position: user.location,
         map: map,
-        title: `Petrol Price: $${user.petrol_91}`, // Display petrol price as title
+        icon: "./public/location-bubble.png",
+        title: `Petrol Price: $${user.petrol_91}`,
+     // Display petrol price as title
       });
 
       // Create info window to display additional content on marker click

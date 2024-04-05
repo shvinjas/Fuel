@@ -24,9 +24,6 @@ const LocationInfo = () => {
   }, []);
 
 
-
-
-
   return (
     <>
       <LocalMap users={users}/>
