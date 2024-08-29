@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "/client/Fuel/index.html"
+        "destination": "/index.html"
       }
     ]
 }
