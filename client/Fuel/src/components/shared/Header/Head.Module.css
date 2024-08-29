@@ -16,6 +16,7 @@
     background-color:var(--white);
     margin-top:10px;
     margin-bottom: 0px;
+    
 }
 .web-top-nav-wrapper{
 
@@ -41,6 +42,7 @@ color:var(--NavyZ)
     align-items: center;
     gap:15px;
     padding: 10px;
+    cursor:pointer;
 }
 .about-h1{
     

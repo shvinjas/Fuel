@@ -3,7 +3,6 @@
   height: 35.5px;
   position: relative;
   object-fit: cover;
-
 }
 .logo-wrapper {
   display: flex;
@@ -12,10 +11,12 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-8xs-7);
   margin-left: -20px;
+  cursor:pointer;
 }
 .products-and-services1 {
   position: relative;
   line-height: 22px;
+  cursor: pointer;
 }
 .vector-icon5 {
   width: 13.4px;
@@ -29,6 +30,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-6xs) 0 0;
+  
 }
 
 .company-copyright-wrapper {
@@ -37,12 +39,14 @@
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-6xs-5);
+  
 }
 .for-businesses1 {
   position: relative;
   line-height: 22px;
   display: inline-block;
   min-width: 104px;
+  
 }
 .vector-icon6 {
   width: 13.4px;

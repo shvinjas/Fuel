@@ -41,6 +41,7 @@
   display: flex;
   flex-direction: row;
   gap: 6px;
+ 
 }
 
 .Tiles {
@@ -56,6 +57,7 @@
   align-items: center;
   gap: 5px;
   margin-bottom: 30px;
+  cursor:pointer;
 }
 .icons {
   width: 30px;
@@ -77,6 +79,7 @@
   background-color: var(--NavyZ);
   color: var(--white);
   margin-left: 240px;
+  cursor:pointer;
 }
 .apply {
   display: flex;
